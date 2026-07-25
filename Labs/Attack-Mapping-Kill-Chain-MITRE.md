@@ -41,8 +41,3 @@ An attacker sends a phishing email to a victim containing a malicious link. The 
 * PowerShell logging
 * Endpoint detection
 * User awareness training
-
----
-
-
-Ye practical GitHub portfolio mein zyada valuable hai. 🔥
