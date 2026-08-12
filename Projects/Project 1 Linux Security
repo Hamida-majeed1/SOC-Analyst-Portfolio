@@ -1,0 +1,105 @@
+Project 1 — Linux Security
+
+## Overview
+
+This project focused on securing and monitoring an Ubuntu Linux system using basic Linux security tools and techniques.
+
+## Objectives
+
+* Secure SSH access
+* Configure and verify UFW Firewall
+* Protect SSH against brute-force attacks using Fail2Ban
+* Investigate authentication logs
+* Check failed login attempts
+* Check banned IP addresses
+* Check available system updates
+* Monitor listening ports and related processes
+
+## Security Tasks Completed
+
+### 1. SSH Security
+
+SSH service was checked to verify that it was running correctly.
+
+**Result:** SSH service was active.
+
+SSH logs were also checked for authentication activity.
+
+**Result:** No relevant SSH entries were found during the check.
+
+### 2. UFW Firewall
+
+The UFW firewall was configured and verified.
+
+**Result:** UFW was active and protecting the system's network traffic.
+
+### 3. Fail2Ban
+
+Fail2Ban was configured to provide protection against repeated failed SSH login attempts.
+
+**Result:** Fail2Ban was active.
+
+The `sshd` jail was also checked.
+
+**Result:** `sshd` jail was active.
+
+### 4. Failed Login Investigation
+
+Authentication logs were checked for failed login attempts.
+
+**Result:** No suspicious failed login activity was identified during the investigation.
+
+### 5. Banned IP Addresses
+
+Fail2Ban was checked for currently banned IP addresses.
+
+**Result:** No IP addresses were banned during the check.
+
+### 6. System Updates
+
+Available system updates were checked.
+
+**Result:** 205 packages were available for update.
+
+Regular updates are important because they provide security patches, bug fixes, and system improvements.
+
+### 7. Listening Ports and Processes
+
+Listening network ports were checked, and the processes/services associated with them were reviewed.
+
+**Result:** No suspicious service or process was identified during the check.
+
+## Tools Used
+
+* Ubuntu Linux
+* SSH
+* UFW Firewall
+* Fail2Ban
+* `systemctl`
+* `journalctl`
+* `grep`
+* `apt`
+* `ss`
+
+## Final Security Assessment
+
+| Security Check        | Result           |
+| --------------------- | ---------------- |
+| SSH                   | ✅ Active         |
+| SSH Logs              | ✅ Checked        |
+| Failed Login Attempts | ✅ Checked        |
+| UFW Firewall          | ✅ Active         |
+| Fail2Ban              | ✅ Active         |
+| SSHD Jail             | ✅ Active         |
+| Banned IPs            | ✅ 0              |
+| System Updates        | ⚠️ 205 Available |
+| Listening Ports       | ✅ Checked        |
+| Processes/Services    | ✅ Checked        |
+
+## Conclusion
+
+This project provided practical experience in Linux security hardening and monitoring. SSH, UFW Firewall, Fail2Ban, authentication logs, system updates, listening ports, and related processes were checked.
+
+No suspicious activity was identified during the performed checks. The system had 205 available package updates, showing the importance of regularly applying security updates.
+
+
