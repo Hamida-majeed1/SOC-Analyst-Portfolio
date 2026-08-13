@@ -17,6 +17,28 @@ I am an aspiring SOC Analyst and Blue Team learner. This repository contains my 
 - SOC Operations
 - Blue Teaming
 
+## Projects
+
+### Project 1 — Linux Security
+
+A practical Linux security project focused on system hardening, monitoring, and security investigation.
+
+**Key Areas:**
+
+* SSH security
+* UFW Firewall
+* Fail2Ban
+* Authentication log investigation
+* Failed login monitoring
+* Listening ports and processes
+* System updates
+
+**Tools Used:**
+`Ubuntu Linux` · `SSH` · `UFW` · `Fail2Ban` · `systemctl` · `journalctl` · `grep` · `ss`
+
+📁 [View Project 1 — Linux Security](Projects/)
+
+
 ## Repository Structure
 
 - 📚 Notes
