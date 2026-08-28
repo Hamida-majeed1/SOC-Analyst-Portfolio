@@ -36,7 +36,7 @@ Two network adapters were configured for the Ubuntu virtual machine.
 The NAT adapter allows Ubuntu to access the Internet without directly exposing the virtual machine to the external network.
 
 ### Adapter 2 — Host-Only
-![Adapter 2 - Host-Only](../Images/Adater%202%20Host-Only%20Adapter.jpeg)
+![Adapter 2 - Host-Only](../Images/Adater%202%20Host-only%20Adapter.jpeg)
 - Network Mode: Host-Only Adapter
 - Ubuntu IP Address: `192.168.56.101`
 - Purpose: Communication between Windows and Ubuntu
@@ -94,7 +94,7 @@ The output showed that SSH was listening on:
 ---
 
 ## 6. Windows → Ubuntu SSH Test
-![Ubuntu](../Images/UBUNTU.JPEG)
+![Ubuntu](../Images/Ubuntu.jpeg)
 
 The SSH connection was tested from Windows PowerShell using:
 
