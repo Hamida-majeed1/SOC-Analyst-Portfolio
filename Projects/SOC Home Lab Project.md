@@ -27,7 +27,7 @@ The lab consists of:
 Two network adapters were configured for the Ubuntu virtual machine.
 
 ### Adapter 1 — NAT
-
+![Adapter 1 - NAT](images/soc-home/Adapter%201%20NAT.jpeg)
 - Network Mode: NAT
 - Ubuntu IP Address: `10.0.2.15`
 - Gateway: `10.0.2.2`
@@ -36,7 +36,7 @@ Two network adapters were configured for the Ubuntu virtual machine.
 The NAT adapter allows Ubuntu to access the Internet without directly exposing the virtual machine to the external network.
 
 ### Adapter 2 — Host-Only
-
+![Adapter 2 - Host-Only Adapter](images/soc-home/Adapter%202%20Host-Only%20Adapter.jpeg)
 - Network Mode: Host-Only Adapter
 - Ubuntu IP Address: `192.168.56.101`
 - Purpose: Communication between Windows and Ubuntu
@@ -46,7 +46,7 @@ The Host-Only adapter provides an isolated network between the Windows host and 
 ---
 
 ## 4. Network Connectivity Test
-
+![Windows Ping Test](images/soc-home/Windows.jpeg)
 Windows was used to test connectivity with the Ubuntu virtual machine.
 
 Command:
@@ -67,7 +67,7 @@ This confirmed successful Windows → Ubuntu network connectivity.
 ---
 
 ## 5. SSH Configuration
-
+![Windows SSH Connection](images/soc-home/Window%20SSH.jpeg)
 SSH was enabled on the Ubuntu virtual machine.
 
 The SSH service was checked using:
@@ -94,6 +94,7 @@ The output showed that SSH was listening on:
 ---
 
 ## 6. Windows → Ubuntu SSH Test
+![Ubuntu SOC Home Lab](images/soc-home/Ubuntu.jpeg)
 
 The SSH connection was tested from Windows PowerShell using:
 
